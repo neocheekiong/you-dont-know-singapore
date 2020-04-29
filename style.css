@@ -1,0 +1,24 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#app {
+    width: 100%;
+    height: 100vh;
+}
+.grid-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+#panel {
+
+}
+
+#map {
+    margin: 0px, auto;
+    width: 100%;
+    height: 100%;
+}
