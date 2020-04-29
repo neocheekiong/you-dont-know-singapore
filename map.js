@@ -1,7 +1,7 @@
 const bottomLeft = [1.162859, 103.574099];
 const topRight = [1.478801, 104.103136];
-
-const center = L.bounds(bottomLeft, topRight).getCenter();
+const bounds = L.bounds(bottomLeft,topRight)
+const center = bounds.getCenter();
 //center = [1.337104, 103.845851]
 const map = L.map('map').setView([center.x, center.y], 12);
 map.setMaxBounds([
