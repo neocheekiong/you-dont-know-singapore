@@ -1,25 +1,25 @@
-var uri = window.location.toString();
+let uri = window.location.toString();
 if (uri.indexOf("?") > 0) {
-    var clean_uri = uri.substring(0, uri.indexOf("?"));
+    let clean_uri = uri.substring(0, uri.indexOf("?"));
     window.history.replaceState({}, document.title, clean_uri)
 }
-var data;
+let data;
 $.get("https://sgwuhan.xose.net/api/?" + Date.now(), function (d) {
     data = JSON.parse(d)["data"];
     initMap()
 });
-var center = L.bounds([1.56073, 104.11475], [1.16, 103.502]).getCenter();
-var map = L.map('mapdiv').setView([center.x, center.y], 12);
+let center = L.bounds([1.56073, 104.11475], [1.16, 103.502]).getCenter();
+let map = L.map('mapdiv').setView([center.x, center.y], 12);
 map.setMaxBounds([
     [1.56073, 104.1147],
     [1.16, 103.502]
 ]);
-var isLight = null;
+let isLight = null;
 if (localStorage.getItem('theme') == 'dark') {
     isLight = true
 }
 setTheme();
-var basemap;
+let basemap;
 
 function setTheme() {
     if (!isLight || isLight == null) {
@@ -49,27 +49,27 @@ $(document).on("change", "#toggleTheme", function () {
 });
 
 function initMap() {
-    var newCase = L.divIcon({
+    let newCase = L.divIcon({
         html: '<div class="centraldot"></div>',
         iconSize: [20, 20]
     });
-    var updCase = L.divIcon({
+    let updCase = L.divIcon({
         html: '<div class="centraldot2"></div>',
         iconSize: [20, 20]
     });
-    var oldCase = L.icon.pulse({
+    let oldCase = L.icon.pulse({
         iconSize: [20, 20],
         color: 'orange',
         fillColor: 'orange',
         animate: false
     });
-    var etcCase = L.icon.pulse({
+    let etcCase = L.icon.pulse({
         iconSize: [20, 20],
         color: 'white',
         fillColor: 'white',
         animate: false
     });
-    for (var i = 0; i < data.length; i++) {
+    for (let i = 0; i < data.length; i++) {
         if (data[i]["caseType"] == "newCase") {
             L.marker([data[i]["lat"], data[i]["lng"]], {
                 icon: newCase,
@@ -120,12 +120,12 @@ function initMap() {
 }
 map.on('popupclose', function (e) {
     toggleHideMarkers("", "");
-    for (var i = 0; i < theLines.length; i++) {
+    for (let i = 0; i < theLines.length; i++) {
         theLines[i].remove()
     }
     theLines = []
 });
-var theLines = [];
+let theLines = [];
 
 function toggleHideMarkers(markerIdx, relatedIdx) {
     if (markerIdx == "") {
@@ -134,8 +134,8 @@ function toggleHideMarkers(markerIdx, relatedIdx) {
         $(".leaflet-marker-pane > div").eq(markerIdx).siblings().css("opacity", "0.1")
     }
     if (relatedIdx != "") {
-        var rIdx = relatedIdx.split(",");
-        for (var i = 0; i < rIdx.length; i++) {
+        let rIdx = relatedIdx.split(",");
+        for (let i = 0; i < rIdx.length; i++) {
             $(".leaflet-marker-pane > div").eq(parseInt(rIdx[i])).css("opacity", "1");
             try {
                 theLines.push(new LeaderLine($(".leaflet-marker-pane > div").eq(markerIdx)[0], $(".leaflet-marker-pane > div").eq(parseInt(rIdx[i]))[0], {
@@ -162,12 +162,11 @@ map.on('move', function (e) {
 
 function mapEvents() {
     if (theLines.length > 0) {
-        for (var i = 0; i < theLines.length; i++) {
+        for (let i = 0; i < theLines.length; i++) {
             theLines[i].position()
         }
     }
 }
 $(document).on("click", "#okBtn", function () {
     $("#modalContainer").hide()
-}); <
-/script>
+}); 
