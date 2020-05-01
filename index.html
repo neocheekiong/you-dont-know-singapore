@@ -14,13 +14,16 @@
     integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
     crossorigin=""></script>
     
+    
     <title>Do you know Singapore?</title>
 </head>
 <body>
-    
+    <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script>
     <div id="app" class="grid-container">
         <div id="panel">
             <h1>Do you know Singapore?</h1>
+            <div id="questions"></div>
+            <div id="answers"></div>
         </div>
         <div id="map"></div>
     </div>
