@@ -1,3 +1,57 @@
+/**
+ * Questions must have the question text,
+ * options, input type, total score,
+ * feedback, occasionally coordinates.
+ */
+class Question {
+    /**
+     * Constructs questions to ask the quiz-taker
+     * 
+     * @param {String} question 
+     * What you are asking the quiz-taker
+     * @param {Array<AnswerOption>} answerOptions 
+     * Array of options you're giving the quiz-taker
+     * @param {Object} feedback 
+     * An object with what to say when quiz-taker is correct or wrong
+     * @param {Number=1} score 
+     * Total score to be given for this question
+     */
+    constructor(question, coordinates, answerOptions, score = 1) {
+        this.question = question;
+        this.coordinates = coordinates
+        this.options = answerOptions;
+        this.score = score;
+        this.feedback = {
+            correct: `That's correct! The answer is ${this.options.find((answer)=>answer.fraction===1)}`
+        };
+    }
+
+    checkAnswer(answer) {
+        let questionScore = this.options.reduce((score, answerOption) => {
+            if (answer === answerOption.answerDescription) return score + this.score * answerOption.fraction;
+            return score;
+        }, 0);
+        return MapQuizApp.player.score + questionScore;
+    }
+}
+
+/**
+ * Answers must have a description, occasionally coordinates, and fraction to denote score.
+ */
+class AnswerOption {
+    /**
+     * Constructs answers for questions.
+     * @param {String} answerDescription 
+     * @param {Object} coordinates 
+     * @param {Number=0} fraction 
+     */
+    constructor(answerDescription, coordinates, fraction = 0) {
+        this.text = answerDescription;
+        this.coordinates = coordinates;
+        this.fraction = fraction;
+    }
+}
+
 questions = [{
         "question": "Where were the first HDB flats located?",
         "answerOptions": [{
