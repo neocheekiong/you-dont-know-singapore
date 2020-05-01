@@ -1,0 +1,5214 @@
+{
+  "quiz": {
+    "question": [
+      {
+        "-type": "category",
+        "category": { "text": "$course$/Default for Test/Assessment" }
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "01" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>Which of the following is the best indicator that an individual is physically dependent on alcohol or a drug?</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "the amount consumed daily.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "the length in years of heavy drinking or drug use.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "the presence of withdrawal symptoms.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "the frequency of memory blackouts.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "01" },
+        "questiontext": {
+          "-format": "moodle_auto_format",
+          "text": "Which of the following is the best indicator that an individual is physically dependent on alcohol or a drug?"
+        },
+        "generalfeedback": { "-format": "moodle_auto_format" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "moodle_auto_format" },
+        "partiallycorrectfeedback": { "-format": "moodle_auto_format" },
+        "incorrectfeedback": { "-format": "moodle_auto_format" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "the amount consumed daily.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "the length in years of heavy drinking or drug use.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "the presence of withdrawal symptoms.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "the frequency of memory blackouts.",
+            "feedback": { "-format": "moodle_auto_format" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "02" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>While taking an alcohol and drug history, which of the following is a good clue that a client is alcohol dependent?</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "increased tolerance and withdrawal symptoms when abstinence is attempted.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "continued use despite experiencing problems that result from use.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "recurring incidents of driving under the influence.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "depression and lethargy.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "02" },
+        "questiontext": {
+          "-format": "moodle_auto_format",
+          "text": "While taking an alcohol and drug history, which of the following is a good clue that a client is alcohol dependent?"
+        },
+        "generalfeedback": { "-format": "moodle_auto_format" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "moodle_auto_format" },
+        "partiallycorrectfeedback": { "-format": "moodle_auto_format" },
+        "incorrectfeedback": { "-format": "moodle_auto_format" },
+        "answer": [
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "increased tolerance and withdrawal symptoms when abstinence is attempted.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "continued use despite experiencing problems that result from use.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "recurring incidents of driving under the influence.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "depression and lethargy.",
+            "feedback": { "-format": "moodle_auto_format" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "03" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>You have assessed your client and determined that he is a problem drinker. He insists that the reason he drinks is because of his wife's behavior. Your initial objective should be to help him:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "get his wife into counselling with him.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "take responsibility for his behaviour.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "develop a more positive perception of himself.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "effect a behavioural intervention.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "03" },
+        "questiontext": {
+          "-format": "moodle_auto_format",
+          "text": "You have assessed your client and determined that he is a problem drinker. He insists that the reason he drinks is because of his wife's behavior. Your initial objective should be to help him:"
+        },
+        "generalfeedback": { "-format": "moodle_auto_format" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "moodle_auto_format" },
+        "partiallycorrectfeedback": { "-format": "moodle_auto_format" },
+        "incorrectfeedback": { "-format": "moodle_auto_format" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "get his wife into counseling with him.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "take responsibility for his behavior.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "develop a more positive perception of himself.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "effect a behavioral intervention.",
+            "feedback": { "-format": "moodle_auto_format" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "04" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>Brian is a 15-year old who has been admitted to a program for chemical dependency. He has a history of running away from home, erratic performance in school, and has been arrested twice for petty theft. In assessing Brian, the counsellor should first consider which of the following before making a treatment recommendation?</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "Brian's goals in life.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "Brian's social resources.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "if Brian really needs the program.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "Brian's family relationships and social situation.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "04" },
+        "questiontext": {
+          "-format": "moodle_auto_format",
+          "text": "Brian is a 15-year old who has been admitted to a program for chemical dependency. He has a history of running away from home, erratic performance in school, and has been arrested twice for petty theft. In assessing Brian, the counselor should first consider which of the following before making a treatment recommendation?"
+        },
+        "generalfeedback": { "-format": "moodle_auto_format" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "moodle_auto_format" },
+        "partiallycorrectfeedback": { "-format": "moodle_auto_format" },
+        "incorrectfeedback": { "-format": "moodle_auto_format" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "Brian's goals in life.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "Brian's social resources.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "if Brian really needs the program.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "Brian's family relationships and social situation.",
+            "feedback": { "-format": "moodle_auto_format" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "05" },
+        "questiontext": {
+          "-format": "moodle_auto_format",
+          "text": "Despite vast personality differences, virtually all substance abusers experience:"
+        },
+        "generalfeedback": { "-format": "moodle_auto_format" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "moodle_auto_format" },
+        "partiallycorrectfeedback": { "-format": "moodle_auto_format" },
+        "incorrectfeedback": { "-format": "moodle_auto_format" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "denial, surrender, and acceptance.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "self-hatred, anger, and guilt.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "remorse, self-hatred, and shame.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "shame, euphoric recall, and relapse.",
+            "feedback": { "-format": "moodle_auto_format" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "05" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>Despite vast personality differences, virtually all substance abusers experience:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "denial, surrender, and acceptance.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "self-hatred, anger, and guilt.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "remorse, self-hatred, and shame.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "shame, euphoric recall, and relapse.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "06" },
+        "questiontext": {
+          "-format": "moodle_auto_format",
+          "text": "Assessment, according to the behavioral approach, involves:"
+        },
+        "generalfeedback": { "-format": "moodle_auto_format" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "moodle_auto_format" },
+        "partiallycorrectfeedback": { "-format": "moodle_auto_format" },
+        "incorrectfeedback": { "-format": "moodle_auto_format" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "taking a client history and specifying problematic behaviors.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "specification of the problematic behavior and collection of baseline data.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "identification of the problematic behavior and evaluation of the client's motivation to change.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "specification of the problematic behavior and evaluation of the client's motivation to change.",
+            "feedback": { "-format": "moodle_auto_format" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "06" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>Assessment, according to the behavioural approach, involves:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "taking a client history and specifying problematic behaviours.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "specification of the problematic behaviour and collection of baseline data.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "identification of the client's emotions and motivation to change.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "specification of the problematic behaviour and evaluation of the client's motivation to change.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "07" },
+        "questiontext": {
+          "-format": "moodle_auto_format",
+          "text": "______is the essential first step in determining the possible causes of addiction for the person and the most appropriate treatment modality for his or her needs."
+        },
+        "generalfeedback": { "-format": "moodle_auto_format" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "moodle_auto_format" },
+        "partiallycorrectfeedback": { "-format": "moodle_auto_format" },
+        "incorrectfeedback": { "-format": "moodle_auto_format" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "screening",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "assessment.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "intake",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "orientation",
+            "feedback": { "-format": "moodle_auto_format" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "07" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>______is the essential first step in determining the possible causes of addiction for the person and the most appropriate treatment modality for his or her needs.</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "screening",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "assessment",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "intake",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "orientation",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "08" },
+        "questiontext": {
+          "-format": "moodle_auto_format",
+          "text": "According to DSM IV-TR, all of the following are criteria for psychoactive substance dependence except:"
+        },
+        "generalfeedback": { "-format": "moodle_auto_format" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "moodle_auto_format" },
+        "partiallycorrectfeedback": { "-format": "moodle_auto_format" },
+        "incorrectfeedback": { "-format": "moodle_auto_format" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "substance often taken in larger amounts than the person intended.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "marked lack of initiative, interest or energy.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "frequent intoxication when expected to fulfill major role obligations.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "one or more unsuccessful efforts to cut down substance use.",
+            "feedback": { "-format": "moodle_auto_format" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "08" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>According to DSM IV-TR, all of the following are criteria for psychoactive substance dependence <strong>except</strong>:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "substance often taken in larger amounts than the person intended.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "marked lack of initiative, interest or energy.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "frequent intoxication when expected to fulfill major role obligations.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "one or more unsuccessful efforts to cut down substance use.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "09" },
+        "questiontext": {
+          "-format": "moodle_auto_format",
+          "text": "During the assessment process, your alcohol and tranquilizer abusing client reveals a history of self-destructiveness when frustrated and an inability to delay impulses. The Most appropriate assessment battery in this case is:"
+        },
+        "generalfeedback": { "-format": "moodle_auto_format" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "moodle_auto_format" },
+        "partiallycorrectfeedback": { "-format": "moodle_auto_format" },
+        "incorrectfeedback": { "-format": "moodle_auto_format" },
+        "answer": [
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "the Beck Depression Scale, the MAST test, and the MMPI.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "the Beck Depression Scale, the MAST test, and the Stanford-Binet.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "the MAST test, the Strong-Campbell, and the Stanford-Binet.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "the MMPI, the Strong-Campbell, and the Stanford-Binet.",
+            "feedback": { "-format": "moodle_auto_format" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "09" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>During the assessment process, your alcohol and tranquilizer abusing client reveals a history of self-destructiveness when frustrated and an inability to delay impulses. The Most appropriate assessment battery in this case is: </p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "the Beck Depression Scale, the MAST test, and the MMPI.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "the Beck Depression Scale, the MAST test, and the Stanford-Binet.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "the MAST test, the Strong-Campbell, and the Stanford-Binet.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "the MMPI, the Strong-Campbell, and the Stanford-Binet.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "10" },
+        "questiontext": {
+          "-format": "moodle_auto_format",
+          "text": "Joe is a 27-year old addict who has begun counseling, but has not yet been able to give up using drugs. During one session, he tells his counselor that he is beginning to feel that \"it is useless to try to stop,\" and that \"sometimes life is not worth living.\" The counselor is concerned that Joe could be suicidal. The counselor should:"
+        },
+        "generalfeedback": { "-format": "moodle_auto_format" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "moodle_auto_format" },
+        "partiallycorrectfeedback": { "-format": "moodle_auto_format" },
+        "incorrectfeedback": { "-format": "moodle_auto_format" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "assess Joe's potential for suicide without directly asking him about his suicide plans, but assess his high-risk factors.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "assess Joe's potential for suicide by asking him about his intent, and evaluating his high-risk factors.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "determine if Joe has a gun or other weapons.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "initiate involuntary hospitalization procedures.",
+            "feedback": { "-format": "moodle_auto_format" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "10" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>Joe is a 27-year old addict who has begun counseling, but has not yet been able to give up using drugs. During one session, he tells his counselor that he is beginning to feel that \"it is useless to try to stop,\" and that \"sometimes life is not worth living.\" The counselor is concerned that Joe could be suicidal. The counselor should:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "assess Joe's potential for suicide without directly asking him about his suicide plans, but assess his high-risk factors.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "assess Joe's potential for suicide by asking him about his intent, and evaluating his high-risk factors.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "determine if Joe has a gun or other weapons.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "initiate involuntary hospitalization procedures.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "category",
+        "category": { "text": "$course$/Default for Test/Treatment Planning" }
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "100" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>Experts refer to three stages of effective treatment for alcohol and drug problems. The first stage consists of medical-physical interventions, the second and third stages are:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "aftercare and A.A./N.A. meetings.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "skill development and reinforcement",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "psychosocial rehabilitation and aftercare.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "family therapy and A.A./N.A.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "category",
+        "category": { "text": "$course$/Default for Test/Assessment" }
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "11" },
+        "questiontext": {
+          "-format": "moodle_auto_format",
+          "text": "The CAGE test is a simple assessment that is administered to individuals with a drinking problem. The questions on this test refer to:"
+        },
+        "generalfeedback": { "-format": "moodle_auto_format" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "moodle_auto_format" },
+        "partiallycorrectfeedback": { "-format": "moodle_auto_format" },
+        "incorrectfeedback": { "-format": "moodle_auto_format" },
+        "answer": [
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "cutting down on drinking, feeling annoyed and guilty, and dealing with hangovers.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "making a distinction between problem drinkers and alcoholics.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "craving a drink, drinking alone, feeling guilty, and employment difficulties.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "client perceptions, anger,  guilt, and \"eye openers.\"",
+            "feedback": { "-format": "moodle_auto_format" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "11" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>The CAGE test is a simple assessment that is administered to individuals with a drinking problem. The questions on this test refer to:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "cutting down on drinking, feeling annoyed and guilty, and dealing with hangovers.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "making a distinction between problem drinkers and alcoholics.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "craving a drink, drinking alone, feeling guilty, and employment difficulties.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "client perceptions, anger,  guilt, and \"eye openers.\"",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "12" },
+        "questiontext": {
+          "-format": "moodle_auto_format",
+          "text": "When assessing the signs and symptoms of alcohol withdrawal, all of the following may be noted EXCEPT:"
+        },
+        "generalfeedback": { "-format": "moodle_auto_format" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "moodle_auto_format" },
+        "partiallycorrectfeedback": { "-format": "moodle_auto_format" },
+        "incorrectfeedback": { "-format": "moodle_auto_format" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "restlessness, irritability, anxiety, agitation.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "tremor, elevated heart rate, increased blood pressure.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "decreased sensitivity to sounds, oversensitivity to tactile sensations.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "decreased appetite, nausea, and vomiting.",
+            "feedback": { "-format": "moodle_auto_format" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "12" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>When assessing the signs and symptoms of alcohol withdrawal, all of the following may be noted EXCEPT:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "restlessness, irritability, anxiety, agitation.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "tremor, elevated heart rate, increased blood pressure.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "decreased sensitivity to sounds, oversensitivity to tactile sensations.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "decreased appetite, nausea, and vomiting.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "13" },
+        "questiontext": {
+          "-format": "moodle_auto_format",
+          "text": "When conducting an assessment, what is the counselor's primary focus?"
+        },
+        "generalfeedback": { "-format": "moodle_auto_format" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "moodle_auto_format" },
+        "partiallycorrectfeedback": { "-format": "moodle_auto_format" },
+        "incorrectfeedback": { "-format": "moodle_auto_format" },
+        "answer": [
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "identifying the client's problems and needs, strengths and weaknesses.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "explaining the rules of the program.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "having the client sign Release of Information forms.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "confronting the client's denial.",
+            "feedback": { "-format": "moodle_auto_format" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "13" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>When conducting an assessment, what is the counselor's primary focus?</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "identifying the client's problems and needs, strengths and weaknesses.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "explaining the rules of the program.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "having the client sign Release of Information forms.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "confronting the client's denial.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "14" },
+        "questiontext": {
+          "-format": "moodle_auto_format",
+          "text": "Assessment is diagnostic in nature and is an indepth profile of:"
+        },
+        "generalfeedback": { "-format": "moodle_auto_format" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "moodle_auto_format" },
+        "partiallycorrectfeedback": { "-format": "moodle_auto_format" },
+        "incorrectfeedback": { "-format": "moodle_auto_format" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "justification for payments.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "diagnosis.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "treatment planning.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "appropriate level of care needed",
+            "feedback": { "-format": "moodle_auto_format" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "14" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>Assessment is diagnostic in nature and is an indepth profile of:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "justification for payments.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "diagnosis.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "treatment planning.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "appropriate level of care needed",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "category",
+        "category": { "text": "$course$/Default for Test/Case Management" }
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "15" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>Which situation requires a client's informed consent?</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "a counselor refers a client back to the referring source at completion of treatment.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "a counselor discusses a client's case with the counselor's supervisor.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "a counselor discusses a client's case with another counselor in the treatment facility.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "a counselor uses case for research study.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "16" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>Because addiction affects so many facets of the addicted person's life _____promotes recovery and enables the substance abuse client to fully integrate into society as a healthy, substance-free individual.</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "detoxification and stabilization.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "psychological evaluation and treatment.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "integration into a self-help program.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "a comprehensive continuum of services.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "17" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>A treatment professional utilizing case management will do all of the following EXCEPT:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "assist the client with needs generally thought to be outside the realm of substance abuse treatment.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "provide the client a single point of contact for multiple health and social services systems.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "advocate for the treatment center's approach to care.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "be flexible, community-based, and client-oriented.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "18" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>Case management addresses all but the following issues:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "the degree of power granted to the case manager.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "co-occurring disorders.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "mental health issues.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "client motivation.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "category",
+        "category": { "text": "$course$/Default for Test/Assessment" }
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "19" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>Which of the following is NOT seen in uncomplicated alcohol withdrawal?</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "html",
+            "text": "<p>weakness</p>",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "html",
+            "text": "<p>nausea or vomiting</p>",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "html",
+            "text": "<p>delirium</p>",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "html",
+            "text": "<p>autonomic hyperactivity, such as tachycardia, sweating, and hypertension</p>",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "category",
+        "category": { "text": "$course$/Default for Test/Case Management" }
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "19" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>A pretreatment period is frequently the result of waiting lists or client reluctance to become fully engaged in primary treatment. What might be a danger of this pretreatment period?  </p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "The pretreatment period may be when clients lose interest in treatment.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "A client may receive enough help so as not to need the services of the program or agency.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "Successful pretreatment may result in a client needing services that an agency doesn't have, thus losing the potential admission.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "There is really no danger with pretreatment--recovery will require much more programming than pretreatment can offer.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "20" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>Bob is a case manager in an intensive inpatient treatment facility. He recently was assigned a client, May, who presents not only with alcoholism but has also been diagnosed with AIDS. To assist Mary in her treatment and recovery needs, Bob would probably need to have knowledge of all of the following areas except:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "AIDS epidemiology and transmission routes.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "the disease's clinical progression.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "new medications used in treatment regimens.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "available social services for AIDS clients.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "21" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>Effective case management for persons in need of multiple services requires:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "monitoring, feedback, and evaluation of services.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "frequent face-to-face contact with the client.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "collaboration with family members.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "careful matching with appropriate 12-step groups.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "22" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>______is one of case management's hallmark characteristics.</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "advocacy.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "cooperation.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "stabilization.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "flexibility.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "category",
+        "category": { "text": "$course$/Default for Test/Client Education" }
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "23" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>Client education is:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "providing information to counselors about treatment approaches.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "providing information to community resources regarding one's treatment program.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "providing data to referral resources.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "providing education sessions for clients about alcohol and drug abuse and services.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "category",
+        "category": { "text": "$course$/Default for Test/Clinical Evaluation" }
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "24" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>The term “late-onset” as it applies to chemical dependency refers to:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "adolescents who avoid use till their late teen years.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "women who don’t begin use till after marriage.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "elderly people who develop chemical dependency late in life.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "men who drink normally in high school but develop dependency in college.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "25" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>Which of the following body fluids has the highest risk of potential HIV infection?</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "Tears.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "Breast milk.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "Saliva.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "Vaginal secretions.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "category",
+        "category": { "text": "$course$/Default for Test/Consultation" }
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "26" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>Relating with in-house and other professionals to assure comprehensive quality care for the client BEST  describes the process of:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "assessment.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "referral.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "counseling.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "consultation.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "27" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>Your client has been advised by his sponsor to discontinue a needed antidepressant medication. You believe this advice to be premature and possibly harmful. What action should you take as a first step?</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "obtain your client's authorization and contact the sponsor to discuss the situation further.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "have the client discontinue involvement in AA until antidepressant medication is no longer needed.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "encourage your client to ignore the sponsor's advice and continue the medication.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "encourage your client to look for another sponsor.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "28" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>Which of the following issues must always be considered when consulting with out-of-agency professionals?</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "documentation of client problems.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "the client's aftercare plan.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "the level of commitment of the client to follow through.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "confidentiality.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "category",
+        "category": { "text": "$course$/Default for Test/Co-occurring Disorders" }
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "29" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>An irresistible impulse is called a(an):</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "delusion.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "hallucination.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "compulsion.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "obsession.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "category",
+        "category": { "text": "$course$/Default for Test/Counseling" }
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "30" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>When a group faces denial by group members, the counselor should:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "directly confront the denial.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "realize denial does not reoccur after counseling begins.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "realize denial enhances entrance into treatment.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "try to discourage identification with other group members working through denial.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "31" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>Which term refers to a client's projecting past emotional feelings and/or attitudes onto the counselor?</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "Sublimation",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "Reaction formation",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "counter-transference.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "transference.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "32" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>After a counselor has made a summary statement, the most importanrt thing the counselor should do is:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "document the summary as soon as possible as part of the treatment plan.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "remain quiet for a time to allow the client to consider the summarized material.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "recommend that the client discuss the session with his/her sponsor.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "terminate the session immediately.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "33" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>All phobic behaviors are reinforced by:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "increased self-esteem.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "reduction in anxiety.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "repetition.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "sympathy from others.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "34" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>Interventions by a group counselor:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "are governed by group content.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "should address issues critical to the functioning of the group as a whole.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "should disregard the group process when needed.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "can rarely be made in a early stage group.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "35" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>Making a contract which includes unwanted consequences for drinking and desired consequences for abstinence is a technique known as:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "negative reinforcement",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "contingency management",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "systematic desensitization",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "aversive counter conditioning",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "36" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>One of the key concepts of R.E.T. involves focusing therapy on:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "the restructuring of irrational beliefs.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "the expression of feelings.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "unconscious conflicts and early experiences.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "achieving an \"authentic existence\" and feeling of uniqueness.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "category",
+        "category": { "text": "$course$/Default for Test/Crisis intervention" }
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "37" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>According to the understanding of completed suicides, people most at risk would be?</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "females and the elderly.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "females and the young.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "males and the elderly.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "males and the young.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "38" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>During a session you notice that the client is getting progressively more agitated. You suspect a potential for violence unless something is done immediately. Your BEST course of action would be to:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "summarize the inappropriateness of the client's feelings.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "confront the client's behavior.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "instruct the client in relaxation techniques.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "call for assistance.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "39" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>Which of the following is not commonly used technique for crisis intervention?</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "help the client to express feelings generated by the crisis.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "eliminate negative beliefs that contributed to the crisis.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "assign specific behavior tasks such as spending time with people.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "immediately refer the client to an agency to help change the situation.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "40" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>The initial stage of crisis intervention involves:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "discussing the client's plans for the future.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "helping the client adapt.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "determining the problem.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "determining a solution.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "41" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>When a client discloses suicidal thoughts, the counselor's first step is to:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "identify alternative courses of action.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "offer emotional support.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "contact emergency personnel.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "assess the degree of risk.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "42" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>In a crisis intervention with a client, you are MOST concerned with:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "the client's family dynamics.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "getting all of the information that you can.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "what your immediate response should be.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "focusing questions about the present situation and the client's means of coping with the stress.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "43" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>Crisis intervention is:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "services to an alcoholic or drug abuser during acute periods of emotional or physical distress.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "services to the courts in support of an addict.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "services to the legal, family and job issues of a patient.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "none of the above.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "44" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>A duty to warn is:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "when a victim of a murder has been identified by a client.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "a legal obligation of a counselor.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "a statute that requires the counselor to report a threat to self or others.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "all of the above.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "category",
+        "category": { "text": "$course$/Default for Test/Documentation" }
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "45" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>Client files are reviewed by the clinical supervisor for the purpose of:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "identifying the counselor’s incompetencies.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "monitoring the counselor’s utilization of time.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "providing professional feedback to enhance the counseling process.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "assessing client needs.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "category",
+        "category": { "text": "$course$/Default for Test/Family Counseling" }
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "46" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>The tendency of the family to try and maintain balance is called:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "equilibrium.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "stability.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "homeostatis.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "accomodation.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "47" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>Significant others should be involved in the treatment process:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "when the client requests interaction.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "from the client's first contact with the treatment center.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "after it has been determined that the client's treatment is going well.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "after it has been determined that the interaction will not interfere with the client's treatment.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "category",
+        "category": { "text": "$course$/Default for Test/Group Counseling" }
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "48" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>The therapeutic reasoning for self-disclosure in group counseling is to:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "provide the group members with insight into the counselor's background.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "convince the group members that the counselor has  life experiences like them.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "demonstrate how to react when other group members disclose personal information.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "facilitate the growth of the group by relating to client or group issues.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "49" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>Effective communcation occurs in groups when:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "message receivers hear \"you\" messages.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "message receivers do not speak.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "message senders use third-person pronouns.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "message senders use \"I\" messages.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "category",
+        "category": { "text": "$course$/Default for Test/Orientation" }
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "50" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>The description of the client's rights typically occurs during the:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "assessment",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "intake",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "orientation",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "referral",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "51" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>Orientation is describing to the client:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "the nature and goals of the treatment program.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "client rights.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "treatment costs.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "all of the above.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "category",
+        "category": { "text": "$course$/Default for Test/Pharmacology" }
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "52" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>You are asked to see a client in the emergency room for a consultation. The nursing notes read: pupils dilated, gooseflesh, lacrimation, luscle jerks, flu syndrome, vomiting, diarrhea, nervousness, yawning and severe anxiety. You conclude that the client is withdrawing from:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "hallucinations.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "CNS depressants.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "opioids.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "detro-amphethamines.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "53" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>Barbiturates can be sub-classified into groups based upon:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "how they are used.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "when they were discovered.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "their medical and non-medical use.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "the speed of the onset and duration of the effects.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "54" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>Morning drinking is not an uncommon occurrence with alcoholics. Which of the following is NOT a true statement?</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "morning drinking will reduce the symptoms of withdrawal.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "morning drinking will keep the alcoholic's blood alcohol level from dropping.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "morning drinking will lessen the need for alcohol during the remainder of the day.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "morning drinking reduces anxiety that affects the alcoholic's ability to start the morning.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "55" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>All of the following are benzodiazepines EXCEPT:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "Valium",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "Halcion.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "Trazodone",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "Xanax",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "category",
+        "category": { "text": "$course$/Default for Test/Professional and Ethical Responsibilities" }
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "56" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>When completing a discharge summary, the counselor’s task is to document:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "general observations.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "client evaluation of their own status.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "the course and progress of the client regarding each identified clinical problem.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "number of self-help groups attended during treatment.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "57" },
+        "questiontext": {
+          "-format": "moodle_auto_format",
+          "text": "Which of the following is the best description of the central role of a substance abuse counselor?"
+        },
+        "generalfeedback": { "-format": "moodle_auto_format" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "moodle_auto_format" },
+        "partiallycorrectfeedback": { "-format": "moodle_auto_format" },
+        "incorrectfeedback": { "-format": "moodle_auto_format" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "Solving the problems of clients",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "Helping clients recognize and use their strengths",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "Curing the disorders of clients",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "Acting as a therapist and a supportive friend at the same time",
+            "feedback": { "-format": "moodle_auto_format" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "58" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>A key factor for counselors to consider is that in a counseling relationship, the counselor has differential power. One of the best safeguards is:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "to be alert to and understand the power relationship.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "to utilize the differential power to motivate the client.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "to realize the importance of this power in client interventions.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "to use differential power to get the client to try new behaviors.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "59" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>It is important to understand clients and their expectations for counseling. Clients coming in for treatment carry with them both helpful and harmful expectations. Which of the following is a harmful client expectation?</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "\"this counselor is a stranger, but maybe I can learn to trust her.\"",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "\"My counselor will direct me on what I need to do, and everything will be ok.\"",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "\"My counselor will be a resource that I can use to resolve my problems.\"",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "The counselor's main concern and responsibility is to help me achieve my goals and objectives.\"",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "60" },
+        "questiontext": {
+          "-format": "moodle_auto_format",
+          "text": "Sarah, a counselor in a drug treatment center, grew up in an alcoholic home and still has strained relationships in her home. Which statement BEST describes Sarah's situation?"
+        },
+        "generalfeedback": { "-format": "moodle_auto_format" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "moodle_auto_format" },
+        "partiallycorrectfeedback": { "-format": "moodle_auto_format" },
+        "incorrectfeedback": { "-format": "moodle_auto_format" },
+        "answer": [
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "Sarah can expect her unresolved conflicts to rise to the surface because of her work in the treatment center.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "Sarah can resolve her personal pain by working professionally with addicted families in a treatment center.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "Sarah may be more comfortable than other staff with her clients because she is familiar with their behavior.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "Sarah may have unfinished business with her parents.",
+            "feedback": { "-format": "moodle_auto_format" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "61" },
+        "questiontext": {
+          "-format": "moodle_auto_format",
+          "text": "A single mother with three young children enters your clinic and begins to discuss her current drug use. She tells you that she has not been home for several days and has left the 8 year old in charge. What do you do?"
+        },
+        "generalfeedback": { "-format": "moodle_auto_format" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "moodle_auto_format" },
+        "partiallycorrectfeedback": { "-format": "moodle_auto_format" },
+        "incorrectfeedback": { "-format": "moodle_auto_format" },
+        "answer": [
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "contact child protective services to report this incident.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "explain to her the limits of confidentiality regarding drug use.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "admit her for treatment and arrange childcare services.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "Contact law enforcement to have her arrested for child abuse and neglect.",
+            "feedback": { "-format": "moodle_auto_format" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "62" },
+        "questiontext": {
+          "-format": "moodle_auto_format",
+          "text": "Which statement BEST describes how a counselor can avoid professional burnout?"
+        },
+        "generalfeedback": { "-format": "moodle_auto_format" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "moodle_auto_format" },
+        "partiallycorrectfeedback": { "-format": "moodle_auto_format" },
+        "incorrectfeedback": { "-format": "moodle_auto_format" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "move from direct care to an administrative position.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "contact a supervisor and ask for fewer work hours.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "attend to health through adequate sleep, an exercise program, and proper diet.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "add more structure to work by using a commercial time management system.",
+            "feedback": { "-format": "moodle_auto_format" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "63" },
+        "questiontext": {
+          "-format": "moodle_auto_format",
+          "text": "A client says to you, \"I am getting to like you very much and I'd like us to get a lot closer.\" You should first:"
+        },
+        "generalfeedback": { "-format": "moodle_auto_format" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "moodle_auto_format" },
+        "partiallycorrectfeedback": { "-format": "moodle_auto_format" },
+        "incorrectfeedback": { "-format": "moodle_auto_format" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "terminate the client's treatment and seek supervision.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "talk openly with the client and your supervisor about transference and counter-transference issues.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "reciprocate your true feelings, but only if you are attracted to the client.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "refer the client to another professional.",
+            "feedback": { "-format": "moodle_auto_format" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "64" },
+        "questiontext": {
+          "-format": "moodle_auto_format",
+          "text": "The PRIMARY purpose of a professional code of ethics is to:"
+        },
+        "generalfeedback": { "-format": "moodle_auto_format" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "moodle_auto_format" },
+        "partiallycorrectfeedback": { "-format": "moodle_auto_format" },
+        "incorrectfeedback": { "-format": "moodle_auto_format" },
+        "answer": [
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "serve as a guide in helping client while behaving in a fair way to colleagues.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "strengthen the appearance of professionalism among addiction counselors.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "clarify the difference between acceptable and unacceptable client behavior.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "provide legal recourse and concrete consequences for unethical behavior.",
+            "feedback": { "-format": "moodle_auto_format" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "65" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>Written consent to release client information is required EXCEPT when the release is to the client's:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "employer when confirmation of attendance is needed for continued employment.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "attorney when verification of admission status is needed for a court hearing.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "spouse who participates in joint counseling sessions.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "physician when information on medications prescribed in treatment is requested.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "66" },
+        "questiontext": {
+          "-format": "moodle_auto_format",
+          "text": "Which one of the above theories of therapy is characterized by directive, interpretive counseling which focuses on “what and how,” not “why,” and views dreams as an important source of information?"
+        },
+        "generalfeedback": { "-format": "moodle_auto_format" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "moodle_auto_format" },
+        "partiallycorrectfeedback": { "-format": "moodle_auto_format" },
+        "incorrectfeedback": { "-format": "moodle_auto_format" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "Reality Therapy",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "Gestalt Therapy",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "Adlerian Therapy",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "Rational Emotive Therapy",
+            "feedback": { "-format": "moodle_auto_format" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "67" },
+        "questiontext": {
+          "-format": "moodle_auto_format",
+          "text": "You are having difficulty with a client early on in the case.  The BEST thing for you to do is:"
+        },
+        "generalfeedback": { "-format": "moodle_auto_format" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "moodle_auto_format" },
+        "partiallycorrectfeedback": { "-format": "moodle_auto_format" },
+        "incorrectfeedback": { "-format": "moodle_auto_format" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "transfer the client to another counselor.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "let the relationship develop and try to work it out.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "challenge the client about his/her resistance to treatment.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "seek out supervision with a colleague or supervisor.",
+            "feedback": { "-format": "moodle_auto_format" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "68" },
+        "questiontext": {
+          "-format": "moodle_auto_format",
+          "text": "A counselor working in private practice learns that an old friend of his is suffering from a drug abuse problem.  The counselor wishes to help his friend, so he agrees to counsel the friend on a biweekly basis. The counselor does not charge his friend any money for the sessions. This arrangement is:"
+        },
+        "generalfeedback": { "-format": "moodle_auto_format" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "moodle_auto_format" },
+        "partiallycorrectfeedback": { "-format": "moodle_auto_format" },
+        "incorrectfeedback": { "-format": "moodle_auto_format" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "ethical - the counselor should be commended for wanting to help his friend.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "ethical - as long as the counselor does not, at a later point, change his mind about charging his friend.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "unethical - NAADAC ethical guidelines prohibit seeing patients for free.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "unethical - Ethical guidelines prohibit dual relationships such as the one described here.",
+            "feedback": { "-format": "moodle_auto_format" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "69" },
+        "questiontext": {
+          "-format": "moodle_auto_format",
+          "text": "A drug counselor is contacted by a client's medical doctor, who is interested  in obtaining information about the client’s progress.  The client has given permission to release information.  The counselor should:"
+        },
+        "generalfeedback": { "-format": "moodle_auto_format" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "moodle_auto_format" },
+        "partiallycorrectfeedback": { "-format": "moodle_auto_format" },
+        "incorrectfeedback": { "-format": "moodle_auto_format" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "give the doctor a copy of the client's file.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "give the doctor only the information that is requested.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "refuse to release the information due to confidentiality requirements.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "ask the client to give the information directly to the doctor.",
+            "feedback": { "-format": "moodle_auto_format" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "70" },
+        "questiontext": {
+          "-format": "moodle_auto_format",
+          "text": "Accepting money for referring a client to treatment is:"
+        },
+        "generalfeedback": { "-format": "moodle_auto_format" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "moodle_auto_format" },
+        "partiallycorrectfeedback": { "-format": "moodle_auto_format" },
+        "incorrectfeedback": { "-format": "moodle_auto_format" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "Acceptable only if the agency pays the fee.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "Illegal in all cases.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "Unacceptable if the fee is charged to the client.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "OK as long as you don’t advertise the fact that you accept such fees.",
+            "feedback": { "-format": "moodle_auto_format" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "71" },
+        "questiontext": {
+          "-format": "moodle_auto_format",
+          "text": "Burnout in counselors might be avoided by periodic:"
+        },
+        "generalfeedback": { "-format": "moodle_auto_format" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "moodle_auto_format" },
+        "partiallycorrectfeedback": { "-format": "moodle_auto_format" },
+        "incorrectfeedback": { "-format": "moodle_auto_format" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "attitude adjustment.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "self-assessment.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "medication evaluation.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "disputing of rational beliefs.",
+            "feedback": { "-format": "moodle_auto_format" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "72" },
+        "questiontext": {
+          "-format": "moodle_auto_format",
+          "text": "Client files are reviewed by the clinical supervisor for the purpose of:"
+        },
+        "generalfeedback": { "-format": "moodle_auto_format" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "moodle_auto_format" },
+        "partiallycorrectfeedback": { "-format": "moodle_auto_format" },
+        "incorrectfeedback": { "-format": "moodle_auto_format" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "assessing client needs.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "identifying the counselor’s incompetencies.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "monitoring the counselor’s utilization of time.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "providing professional feedback to enhance the counseling process.",
+            "feedback": { "-format": "moodle_auto_format" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "73" },
+        "questiontext": {
+          "-format": "moodle_auto_format",
+          "text": "If a counselor knows that he/she is unable to assure the client of confidentiality, he/she should:"
+        },
+        "generalfeedback": { "-format": "moodle_auto_format" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "moodle_auto_format" },
+        "partiallycorrectfeedback": { "-format": "moodle_auto_format" },
+        "incorrectfeedback": { "-format": "moodle_auto_format" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "discuss this with his/her supervisor.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "refer the client to someone else.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "inform the client of this fact.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "do not inform the client of this fact.",
+            "feedback": { "-format": "moodle_auto_format" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "74" },
+        "questiontext": {
+          "-format": "moodle_auto_format",
+          "text": "The administrator of your hospital mandates that all drug and alcohol patients be given psychological testing upon admission.  It is your job to:"
+        },
+        "generalfeedback": { "-format": "moodle_auto_format" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "moodle_auto_format" },
+        "partiallycorrectfeedback": { "-format": "moodle_auto_format" },
+        "incorrectfeedback": { "-format": "moodle_auto_format" },
+        "answer": [
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "make sure the testing occurs as mandated.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "challenge the authority of the administrator in making such a mandate.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "refuse to follow such a mandate.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "work to insure that only medically necessary and appropriate care is administered.",
+            "feedback": { "-format": "moodle_auto_format" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "75" },
+        "questiontext": {
+          "-format": "moodle_auto_format",
+          "text": "The agency you work for does not provide post-discharge services.  It is your professional responsibility to:"
+        },
+        "generalfeedback": { "-format": "moodle_auto_format" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "moodle_auto_format" },
+        "partiallycorrectfeedback": { "-format": "moodle_auto_format" },
+        "incorrectfeedback": { "-format": "moodle_auto_format" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "Adhere to the policies and limitations of your agency.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "Write a proposal for post-discharge services and submit it to the agency director.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "Work for an agency that provides a continuum of care.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "Develop a plan for ongoing client support.",
+            "feedback": { "-format": "moodle_auto_format" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "76" },
+        "questiontext": {
+          "-format": "moodle_auto_format",
+          "text": "The primary function of professional credentialing in counseling is to:"
+        },
+        "generalfeedback": { "-format": "moodle_auto_format" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "moodle_auto_format" },
+        "partiallycorrectfeedback": { "-format": "moodle_auto_format" },
+        "incorrectfeedback": { "-format": "moodle_auto_format" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "advance the field of counseling by ensuring that counselors are recognized by the public as dignified professionals",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "ensure that individuals in a particular field of counseling share and understand the accepted standards and philosophies of practice",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "protect public safety by ensuring that credentialed individuals meet minimum standards of competency",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "satisfy the legal requirement that professionals receiving third-party payments possess professional credentials",
+            "feedback": { "-format": "moodle_auto_format" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "77" },
+        "questiontext": {
+          "-format": "moodle_auto_format",
+          "text": "The PRIMARY purpose of professional standards of practice is to:"
+        },
+        "generalfeedback": { "-format": "moodle_auto_format" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "moodle_auto_format" },
+        "partiallycorrectfeedback": { "-format": "moodle_auto_format" },
+        "incorrectfeedback": { "-format": "moodle_auto_format" },
+        "answer": [
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "provide recognition of demonstrated competency in addictions counseling.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "ensure that each client receives equal treatment regardless of ability to pay.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "help programs qualify for Medicaid and other third-party reimbursement.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "allow unlicensed counselors to work in licensed facilities.",
+            "feedback": { "-format": "moodle_auto_format" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "78" },
+        "questiontext": {
+          "-format": "moodle_auto_format",
+          "text": "The quality of counseling is directly related to the counselor’s ability to:"
+        },
+        "generalfeedback": { "-format": "moodle_auto_format" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "moodle_auto_format" },
+        "partiallycorrectfeedback": { "-format": "moodle_auto_format" },
+        "incorrectfeedback": { "-format": "moodle_auto_format" },
+        "answer": [
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "formulate and carry out realistic personal and professional goals.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "analyze client problems.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "convince clients to change.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "interpret the deeper meaning of problems.",
+            "feedback": { "-format": "moodle_auto_format" }
+          }
+        ]
+      },
+      {
+        "-type": "category",
+        "category": { "text": "$course$/Default for Test/Pharmacology" }
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "79" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>Prolonged use of cocaine may dysregulate which brain neurotransmitter system?</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "html",
+            "text": "<p>Serotonin</p>",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "html",
+            "text": "<p>Dopamine</p>",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "html",
+            "text": "<p>GABA</p>",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "html",
+            "text": "<p>Acetylcholine</p>",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "category",
+        "category": { "text": "$course$/Default for Test/Referral" }
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "79" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>A client has been referred to you for alcohol abuse describes herself as having a feeling of being left out, of not belonging. The primary reason for referring her to a group therapy program would be:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "to ease her transition into one-to-one counseling.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "to educate her fully about her alcohol abuse problem.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "to increase her sense of self-awareness.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "to reduce her sense of isolation.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "80" },
+        "questiontext": {
+          "-format": "moodle_auto_format",
+          "text": "A client who has been referred to you for alcohol abuse describes herself as having a feeling of being left out, of not belonging.  The primary reason for referring her to a group would be:"
+        },
+        "generalfeedback": { "-format": "moodle_auto_format" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "moodle_auto_format" },
+        "partiallycorrectfeedback": { "-format": "moodle_auto_format" },
+        "incorrectfeedback": { "-format": "moodle_auto_format" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "to ease her transition into one-on-one counseling.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "to educate her fully about her alcohol abuse problem.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "to increase her sense of self-awareness.",
+            "feedback": { "-format": "moodle_auto_format" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "to reduce her sense of isolation.",
+            "feedback": { "-format": "moodle_auto_format" }
+          }
+        ]
+      },
+      {
+        "-type": "category",
+        "category": { "text": "$course$/Default for Test/Reports and Record Keeping" }
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "81" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>A \"Release of information\" form must include, in addition to the client's name, address, date of birth, which of the following?</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "The client's ethnic background.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "a signature by a medical doctor.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "the purpose of the release of information.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "the client's social security number.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "category",
+        "category": { "text": "$course$/Default for Test/Screening" }
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "82" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>During the screening process, a critical task that the counselor has is to:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "complete a mental status exam.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "engage the client's family in treatment.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "develop a treatment plan.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "establish rapport with the client.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "83" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>The definition of screening is:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "the process where a client is  present for admission to a program.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "the process where a client is eligible for admission to a program.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "the process by which a client is identified in need of and wants admission to a program.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "the process where a client is determined to be incompetent and able to do self-harm and is present for admission to a program.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "84" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>DSM IV-TR is the primary diagnostic tool used by:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "Psychiatrists, psychologists, social workers and those qualified to so use.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "trained screeners and assessors.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "EAPs",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "nurses, direct care staff.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "85" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>Screening answers the question:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "who is responsible for the problem.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "who has had treatment before.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "if the client has a means of payment for services.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "does the client have a substance abuse problem and is in need of treatment.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "category",
+        "category": { "text": "$course$/Default for Test/Self-help" }
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "86" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>The two founders of Alcoholics Anonymous were:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "Bill Smith and Bob Wilson.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "Ebby Thatcher & Bob Smith.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "Bill Wilson and Bob Smith.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "None of the above.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "87" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>The conception of AA was in:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "1935",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "1941",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "1956",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "1929",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "88" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>Came to believe that a Power greater than ourselves could restore us to:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "normal",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "manageability",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "good standing.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "sanity.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "category",
+        "category": { "text": "$course$/Default for Test/Service Coordination" }
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "89" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>Which self help group would be most appropriate for a mother whose drug and alcohol-abusing son is causing her distress?</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "Alateen",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "ACOA",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "N.A.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "Al-Anon",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "90" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>Interagency case management arrangements are designed to help providers do all of the following EXCEPT:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "connect with each other to improve client services.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "enhance the efficiency of their respective organizations.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "share resources in order to lower staffing costs.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "maintain a high census in programming.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "91" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>Interventions designed to help substance abusers access needed social services are known as:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "Service Coordination.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "Case Finding.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "Master Treatment Planning.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "Discharge Planning",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "92" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>Managed care uses case management to ______ access to services as well as to ______ access to services.</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "restrict; facilitate",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "limit; delay",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "improve; enhance",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "streamline; constrict",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "category",
+        "category": { "text": "$course$/Default for Test/Special Populations" }
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "93" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>The MOST significant barrier to effective treatment for alcohol and drug abuse for single parents is lack of:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "job skills.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "child care services.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "educational training.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "primary health care.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "94" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>There are several psychological and sociological differences between male and female alcohol abusers. Which of the following BEST describes one of those differences?</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "Women more often than men will cite a traumatic event that precipitated their drinking.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "Female alcoholics are more likely to be sociopathic and male alcoholics are more likely to have affective problems.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "Female alcoholics are less frequently characterized as feeling depressed and guilty than male alcoholics.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "Women move more slowly from the early stages to the later stages of abusive drinking than men.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "category",
+        "category": { "text": "$course$/Default for Test/Treatment Planning" }
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "95" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>Which of the following is an essential treatment goal during the first two to four weeks of sobriety?</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "Physical withdrawal from non-essential mood altering drugs",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "Understanding one’s family dynamics",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "Resolving residual grief",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "Developing new peer relationships",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "96" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>Which of the following is essential for successful recovery from addiction?</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "The client must admit to a drinking and/or drug problem",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "The client must enter in-patient treatment and participate in aftercare",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "The client must work all 12 steps of a 12-step program",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "The client must change friends and acquaintances",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "97" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>Which of the following is TRUE about a treatment plan?</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "Treatment plans should relate to the counselor’s treatment philosophy and methods",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "Client’s own goals for treatment must be considered and discussed",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "Client’s family should agree with treatment plan",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "Other treatment staff should not give input into the treatment plan",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "98" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>Your agency treats only alcoholics. Three months into outpatient treatment, your client complains of feeling overwhelmed and anxious, with increased sleeplessness, loss of weight, and periods of weepiness. The BEST course of action is to:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "rule out any possible suicidal behavior and increase the therapy sessions.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "reassess the client’s current status and needs and amend the treatment plan.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "increase the therapy sessions, advise increased participation in AA meetings, and consult with your supervisor about the client’s complaints.",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "increase the therapy sessions and advise increased participation in AA meetings.",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      },
+      {
+        "-type": "multichoice",
+        "name": { "text": "99" },
+        "questiontext": {
+          "-format": "html",
+          "text": "<p>A client tells a counselor that she is unhappy with the way her treatment is progressing. The counselor:</p>"
+        },
+        "generalfeedback": { "-format": "html" },
+        "defaultgrade": "1.0000000",
+        "penalty": "0.3333333",
+        "hidden": "0",
+        "single": "true",
+        "shuffleanswers": "true",
+        "answernumbering": "abc",
+        "correctfeedback": { "-format": "html" },
+        "partiallycorrectfeedback": { "-format": "html" },
+        "incorrectfeedback": { "-format": "html" },
+        "answer": [
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "draws up a contract",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "talks to the client about possible denial",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "0",
+            "-format": "moodle_auto_format",
+            "text": "creates new goals and objectives, and suggest alternate forms of therapy",
+            "feedback": { "-format": "html" }
+          },
+          {
+            "-fraction": "100",
+            "-format": "moodle_auto_format",
+            "text": "discusses these concerns with the client and make necessary changes in treatment goals",
+            "feedback": { "-format": "html" }
+          }
+        ]
+      }
+    ]
+  }
+}
