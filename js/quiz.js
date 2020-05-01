@@ -1,12 +1,12 @@
-
+const DEFAULT_NUMBER = 0;
 
 const MapQuizApp = {
     questions: [],
     selectedAnswers: [],
     player: {
         name: "Player",
-        score: 0,
-        currentQuestion: 0,
+        score: DEFAULT_NUMBER,
+        currentQuestion: DEFAULT_NUMBER,
     },
 
     getQuestions(questions) {
