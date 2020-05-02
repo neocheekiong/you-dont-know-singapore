@@ -11,7 +11,7 @@ const MapQuizApp = {
 
     getQuestions(questions) {
         questions.forEach(question => {
-            MapQuizApp.questions.push(new Question(question.question, question.coordinates, question.answerOptions, question.mapAction))
+            MapQuizApp.questions.push(new Question(question.question, question.coordinates, question.answerOptions, question.questionMapAction, question.questionMapMarker))
         });
     },
 }
@@ -43,11 +43,10 @@ const MapQuizAppView = {
             this.renderAnswers();
             $('#answers').append(this.renderSubmitButton());
             if (currentQuestion.coordinates) {
-                let coordinates = [currentQuestion.coordinates.latitude, currentQuestion.coordinates.longitude];
-                let marker = L.circle(coordinates,{radius: 200});
+                let marker = currentQuestion.questionMapMarker();
                 this.currentLayers.push(marker);
                 marker.addTo(map);
-                currentQuestion.mapAction.function(coordinates, currentQuestion.mapAction.zoom);
+                currentQuestion.questionMapAction();
             }
         }
 
@@ -58,7 +57,7 @@ const MapQuizAppView = {
         const currentQuestion = MapQuizApp.questions[MapQuizApp.player.currentQuestion];
         currentQuestion.options.forEach((answerOption) => {
             if (answerOption.coordinates) {
-                let marker = L.marker([answerOption.coordinates.latitude, answerOption.coordinates.longitude]);
+                let marker = answerOption.answerMapMarker();
                 this.currentLayers.push(marker);
                 marker.addTo(map);
             }

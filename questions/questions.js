@@ -13,18 +13,21 @@ class Question {
      * Array of options you're giving the quiz-taker
      * @param {Object} feedback 
      * An object with what to say when quiz-taker is correct or wrong
-     * @param {Object} mapAction
+     * @param {Function} questionMapAction
      * Perform this map action when the question is displayed. 
      * (Flying to question Coordinates etc)
+     * @param {Function} questionMapMarker
+     * create this marker on the questions' coordinates
      * @param {Number=1} score 
      * Total score to be given for this question
      */
-    constructor(question, coordinates, answerOptions, mapAction, score = 1) {
+    constructor(question, coordinates, answerOptions, questionMapAction, questionMapMarker, score = 1) {
         this.question = question;
-        this.coordinates = coordinates
+        this.coordinates = coordinates ? [coordinates.latitude, coordinates.longitude] : null;
         this.options = answerOptions;
         this.score = score;
-        this.mapAction = mapAction;
+        this.questionMapAction = questionMapAction;
+        this.questionMapMarker = questionMapMarker
         this.feedback = {
             correct: `That's correct! The answer is ${this.options.find((answer)=>answer.fraction===1)}`
         };
@@ -49,10 +52,11 @@ class AnswerOption {
      * @param {Object} coordinates 
      * @param {Number=0} fraction 
      */
-    constructor(answerDescription, coordinates, fraction = 0) {
+    constructor(answerDescription, coordinates, answerMapMarker, fraction = 0) {
         this.text = answerDescription;
-        this.coordinates = coordinates;
+        this.coordinates = coordinates ? [coordinates.latitude, coordinates.longitude] : null;
         this.fraction = fraction;
+        this.answerMapMarker = answerMapMarker || null;
     }
 }
 
@@ -64,7 +68,10 @@ const questions = [{
                     "latitude": 1.2973869,
                     "longitude": 103.8030340
                 },
-                "fraction": 1
+                "fraction": 1,
+                answerMapMarker() {
+                    return L.marker([this.coordinates.latitude, this.coordinates.longitude]);
+                }
             },
             {
                 "answerDescription": "1 Tiong Bahru",
@@ -72,7 +79,10 @@ const questions = [{
                     "latitude": 1.2861369,
                     "longitude": 103.8330279
                 },
-                "fraction": 0
+                "fraction": 0,
+                answerMapMarker() {
+                    return L.marker([this.coordinates.latitude, this.coordinates.longitude]);
+                }
             },
             {
                 "answerDescription": "1 Changi Village",
@@ -80,7 +90,10 @@ const questions = [{
                     "latitude": 1.3885466,
                     "longitude": 103.9878045
                 },
-                "fraction": 0
+                "fraction": 0,
+                answerMapMarker() {
+                    return L.marker([this.coordinates.latitude, this.coordinates.longitude]);
+                }
             },
             {
                 "answerDescription": "1 Toa Payoh Lorong 7",
@@ -88,7 +101,10 @@ const questions = [{
                     "latitude": 1.3394303,
                     "longitude": 103.8534428
                 },
-                "fraction": 0
+                "fraction": 0,
+                answerMapMarker() {
+                    return L.marker([this.coordinates.latitude, this.coordinates.longitude]);
+                }
             }
         ]
     },
@@ -115,14 +131,90 @@ const questions = [{
                 "fraction": 0
             }
         ],
-        "mapAction": {
-            'function': map.flyTo,
-            'zoom': MAX_ZOOM,
+        questionMapAction() {
+            map.flyTo(this.coordinates, MAX_ZOOM);
+        },
+        questionMapMarker() {
+            return L.circle(this.coordinates, {
+                radius: 200
+            })
         }
     },
+    {
+        "question": "Here you can see that there is a high density of swimming pools within this red circle around Sentosa Cove. However, this is not the area with the highest density of swimming pools in Singapore. Which of the following areas have a higher density of swimming pools than Sentosa Cove? Zoom out to see the other candidates.",
+        coordinates: {
+            latitude: 1.250237,
+            longitude: 103.845021
+        },
+        answerOptions: [{
+                answerDescription: "Yarwood Avenue",
+                coordinates: {
+                    latitude: 1.338829,
+                    longitude: 103.783408
+                },
+                answerMapMarker() {
+                    return L.circle([this.coordinates.latitude, this.coordinates.longitude], {
+                        radius: 300,
+                        color: "blue",
+                    });
+                },
+            },
+            {
+                answerDescription: "Mount Echo Park",
+                coordinates: {
+                    latitude: 1.296144,
+                    longitude: 103.820367
+                },
+                answerMapMarker() {
+                    return L.circle([this.coordinates.latitude, this.coordinates.longitude], {
+                        radius: 300,
+                        color: "blue",
+                    });
+                },
+            },
+            {
+                answerDescription: "Nassim Road",
+                coordinates: {
+                    latitude: 1.310942,
+                    longitude: 103.820286
+                },
+                answerMapMarker() {
+                    return L.circle([this.coordinates.latitude, this.coordinates.longitude], {
+                        radius: 300,
+                        color: "blue",
+                    });
+                },
+            },
+            {
+                answerDescription: "Oxley Road",
+                coordinates: {
+                    latitude: 1.297957,
+                    longitude: 103.840764
+                },
+                answerMapMarker() {
+                    return L.circle([this.coordinates.latitude, this.coordinates.longitude], {
+                        radius: 300,
+                        color: "blue",
+                    });
+                },
+            },
+        ],
+
+        questionMapMarker() {
+            return L.circle(this.coordinates, {
+                radius: 300,
+                color: "red"
+            }).on('click', function () { 
+                map.flyTo(this.coordinates, MAX_ZOOM);
+             })
+        },
+        
+        questionMapAction() {
+            map.flyTo([center.x,center.y], 13);
+        },
+    }
 ]
 
-// Yarwood Avenue: 1.338829, 103.783408
-// Mount Echo Park: 1.296144, 103.820367
-// Nassim Road: 1.310942, 103.820286
-// Oxley Road: 1.297957, 103.840764
+// condom truck
+// Lim Bo Seng
+// Type of Rock
