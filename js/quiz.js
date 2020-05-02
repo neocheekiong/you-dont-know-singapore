@@ -14,6 +14,8 @@ const MapQuizApp = {
             MapQuizApp.questions.push(new Question(question.question, question.coordinates, question.answerOptions, question.questionMapAction, question.questionMapMarker))
         });
     },
+
+
 }
 
 const MapQuizAppView = {
@@ -31,7 +33,7 @@ const MapQuizAppView = {
     },
 
     renderSubmitButton() {
-        return $('<button>').text('Submit').on('click', mapQuizAppController.submitAnswer)
+        return $('<button>').text('Submit').on('click', MapQuizAppController.submitAnswer)
     },
 
     renderCurrentQuestion() {
@@ -76,35 +78,57 @@ const MapQuizAppView = {
         this.currentLayers.forEach((marker) => {
             marker.remove()
         })
+    },
+
+    endQuiz() {
+        const $closingModalHeader = $('<h2>').text("Congratulations! You've finished the quiz");
+        const $closingModalContent = $('<p>').text(`You Scored ${MapQuizApp.player.score} out of ${MapQuizApp.questions.length}!`);
+        const $closingModalButton = $('<button>').text('Restart?').addClass('waves-effect waves-light btn').on('click', MapQuizAppController.restart);
+        const $closingModalContentContainer = $('<div>').addClass('modal-content').append($closingModalHeader, $closingModalContent, $closingModalButton);
+        const $closingModal = $('<div>').addClass('modal').attr("id","closing-modal").append($closingModalContentContainer);
+        
+        $('body').prepend($closingModal);
+        $closingModal.toggle();
+
     }
 }
 
-const mapQuizAppController = {
+const MapQuizAppController = {
     getAnswer() {
         return $('input:radio[name=answer]:checked').val();
     },
 
     submitAnswer() {
-        const submittedAnswer = mapQuizAppController.getAnswer();
+        const submittedAnswer = MapQuizAppController.getAnswer();
         MapQuizApp.player.score = MapQuizApp.questions[MapQuizApp.player.currentQuestion].checkAnswer(submittedAnswer);
-        mapQuizAppController.nextQuestion();
+        MapQuizAppController.nextQuestion();
     },
 
     nextQuestion() {
         MapQuizApp.player.currentQuestion++;
         MapQuizAppView.clearPanel();
         MapQuizAppView.renderCurrentQuestion();
+        MapQuizApp.player.currentQuestion >= MapQuizApp.questions.length && MapQuizAppView.endQuiz()
     },
 
     start() {
+        MapQuizApp.getQuestions(questions);
         MapQuizApp.player.name = $('#enter-name').val();
         MapQuizAppView.renderCurrentQuestion();
-        $('#opening-modal').toggle();
+        $('#opening-modal').remove();
+    },
+
+    restart() {
+        MapQuizApp.player.score = DEFAULT_NUMBER;
+        MapQuizApp.player.currentQuestion = DEFAULT_NUMBER;
+        MapQuizApp.questions = [];
+        $('#closing-modal').remove();
+        MapQuizApp.getQuestions(questions);
+        MapQuizAppView.renderCurrentQuestion();
     }
 }
 
 $(function () {
-    MapQuizApp.getQuestions(questions);
     $('#opening-modal').toggle();
-    $('#start-button').on('click', mapQuizAppController.start);
+    $('#start-button').on('click', MapQuizAppController.start);
 });

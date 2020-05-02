@@ -148,6 +148,7 @@ const questions = [{
         },
         answerOptions: [{
                 answerDescription: "Yarwood Avenue",
+                fraction: 0,
                 coordinates: {
                     latitude: 1.338829,
                     longitude: 103.783408
@@ -161,6 +162,7 @@ const questions = [{
             },
             {
                 answerDescription: "Mount Echo Park",
+                fraction: 1,
                 coordinates: {
                     latitude: 1.296144,
                     longitude: 103.820367
@@ -174,6 +176,7 @@ const questions = [{
             },
             {
                 answerDescription: "Nassim Road",
+                fraction: 0,
                 coordinates: {
                     latitude: 1.310942,
                     longitude: 103.820286
@@ -187,6 +190,7 @@ const questions = [{
             },
             {
                 answerDescription: "Oxley Road",
+                fraction: 0,
                 coordinates: {
                     latitude: 1.297957,
                     longitude: 103.840764
