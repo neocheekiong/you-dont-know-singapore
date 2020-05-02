@@ -204,13 +204,19 @@ const questions = [{
             return L.circle(this.coordinates, {
                 radius: 300,
                 color: "red"
-            }).on('click', function () { 
+            }).on('click', function () {
                 map.flyTo(this.coordinates, MAX_ZOOM);
-             })
+            })
         },
-        
+
         questionMapAction() {
-            map.flyTo([center.x,center.y], 13);
+            map.flyTo(this.coordinates, MAX_ZOOM);
+            map.on("moveend", function flyAndReturn () {
+                map.flyTo([center.x, center.y], 13);
+                map.on("moveend", function () {
+                    map.off('moveend');
+                })
+            })
         },
     }
 ]
