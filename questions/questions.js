@@ -56,7 +56,7 @@ class AnswerOption {
     }
 }
 
-questions = [{
+const questions = [{
         "question": "Where were the first HDB flats located?",
         "answerOptions": [{
                 "answerDescription": "45-48 Stirling Road",
