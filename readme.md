@@ -42,3 +42,6 @@ I also used Moodle's quiz exports to look at what structure a list of quiz quest
 
 ### MVC
 After some comments on MVC in some of my past homework, I decided to make my app here more modular. There are separate files for the map, the quiz, the handlers and the data.
+
+## User Story
+When I enter the website, I want to be wowed by the environment. I want to start getting ready to explore. As I go through the sequences, I want to be drawn into the hidden stories of Singapore. I want to invite the users to google and find out more about these hidden stories.
