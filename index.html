@@ -1,31 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Materialize CSS Framework -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Leaflet CSS for Map -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
-    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
-    crossorigin=""/>
+        integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+        crossorigin="" />
+
+    <!-- Internal Stylesheet -->
     <link rel="stylesheet" href="styles/style.css">
-    <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <!-- Jquery for DOM Manipulation -->
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"
+        integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <!-- Leaflet JS -->
     <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
-    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
-    crossorigin=""></script>
+        integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+        crossorigin=""></script>
+    <!-- Omnivore Plugin to transform .SHP shapes into layer -->
+    <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'>
+    </script>
+    <!-- Compiled and minified Materialize JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <title>You don't know Singapore</title>
 </head>
+
 <body>
-    <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script>
+    <div id="opening-modal" class="modal">
+        <div class="modal-content">
+            <h1>You Don't Know Singapore!</h1>
+            <p>Singapore is a small city so we like to think we know it very well.</p>
+            <p>There is plenty to see and explore, even on an online map.</p>
+            <p>This game will introduce you to some of the oddball things that you can find on the map.</p>
+            <p>You will begin to see how to explore the city of Singapore even from the comfort of your home.</p>
+            <p>Hopefully you will want to go out to visit this places like I did!</p>
+            <input type="text" placeholder="Name" name="name" id="enter-name">
+            <button class="waves-effect waves-light btn" id="start-button">Start!</button>
+        </div>
+    </div>
     <div id="app" class="grid-container">
         <div id="panel">
-            <h1>You don't know Singapore</h1>
+            <h1>You Don't Know Singapore</h1>
             <div id="questions"></div>
             <div id="answers"></div>
         </div>
         <div id="map"></div>
     </div>
+    <!-- Custom Scripts for App -->
     <script src="js/map.js"></script>
     <script src="questions/questions.js"></script>
     <script src="js/quiz.js"></script>
-    
 </body>
+
 </html>

@@ -26,10 +26,8 @@ const MapQuizAppView = {
         })
     },
 
-    createLabel(value) {
-        return $('<label>').attr({
-            for: value
-        }).text(value)
+    createSpan(value) {
+        return $('<span>').text(value)
     },
 
     renderSubmitButton() {
@@ -61,10 +59,14 @@ const MapQuizAppView = {
                 this.currentLayers.push(marker);
                 marker.addTo(map);
             }
-            const answerDescription = answerOption.answerDescription
+            const answerDescription = answerOption.answerDescription;
+            const $container = $("<p>");
+            const $label = $("<label>");
             const $answer = MapQuizAppView.createRadioButton(answerDescription);
-            const $label = MapQuizAppView.createLabel(answerDescription)
-            $answerContainer.append($answer, $label);
+            const $span = MapQuizAppView.createSpan(answerDescription);
+            $label.append($answer, $span);
+            $container.append($label);
+            $answerContainer.append($container);
         })
     },
 
@@ -92,10 +94,17 @@ const mapQuizAppController = {
         MapQuizApp.player.currentQuestion++;
         MapQuizAppView.clearPanel();
         MapQuizAppView.renderCurrentQuestion();
+    },
+
+    start() {
+        MapQuizApp.player.name = $('#enter-name').val();
+        MapQuizAppView.renderCurrentQuestion();
+        $('#opening-modal').toggle();
     }
 }
 
 $(function () {
     MapQuizApp.getQuestions(questions);
-    MapQuizAppView.renderCurrentQuestion();
+    $('#opening-modal').toggle();
+    $('#start-button').on('click', mapQuizAppController.start);
 });
