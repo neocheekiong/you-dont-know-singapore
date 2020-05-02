@@ -13,14 +13,18 @@ class Question {
      * Array of options you're giving the quiz-taker
      * @param {Object} feedback 
      * An object with what to say when quiz-taker is correct or wrong
+     * @param {Object} mapAction
+     * Perform this map action when the question is displayed. 
+     * (Flying to question Coordinates etc)
      * @param {Number=1} score 
      * Total score to be given for this question
      */
-    constructor(question, coordinates, answerOptions, score = 1) {
+    constructor(question, coordinates, answerOptions, mapAction, score = 1) {
         this.question = question;
         this.coordinates = coordinates
         this.options = answerOptions;
         this.score = score;
+        this.mapAction = mapAction;
         this.feedback = {
             correct: `That's correct! The answer is ${this.options.find((answer)=>answer.fraction===1)}`
         };
@@ -110,7 +114,11 @@ questions = [{
                 "answerDescription": "Fort Belakang Mati",
                 "fraction": 0
             }
-        ]
+        ],
+        "mapAction": {
+            'function': map.flyTo,
+            'zoom': MAX_ZOOM,
+        }
     },
 ]
 
