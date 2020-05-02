@@ -17,6 +17,7 @@ const MapQuizApp = {
 }
 
 const MapQuizAppView = {
+    currentLayers: [],
     createRadioButton(value) {
         return $('<input>').attr({
             type: 'radio',
@@ -37,9 +38,18 @@ const MapQuizAppView = {
 
     renderCurrentQuestion() {
         const currentQuestion = MapQuizApp.questions[MapQuizApp.player.currentQuestion];
-        $('#questions').append($('<span>').text(currentQuestion.question))
-        this.renderAnswers();
-        $('#answers').append(this.renderSubmitButton());
+        if (currentQuestion) {
+            $('#questions').append($('<span>').text(currentQuestion.question))
+            this.renderAnswers();
+            $('#answers').append(this.renderSubmitButton());
+            if (currentQuestion.coordinates) {
+                let marker = L.circle([currentQuestion.coordinates.latitude, currentQuestion.coordinates.longitude],{radius: 200});
+                this.currentLayers.push(marker);
+                marker.addTo(map);
+                map.flyTo([currentQuestion.coordinates.latitude, currentQuestion.coordinates.longitude], MAX_ZOOM);
+            }
+        }
+
     },
 
     renderAnswers() {
@@ -47,7 +57,9 @@ const MapQuizAppView = {
         const currentQuestion = MapQuizApp.questions[MapQuizApp.player.currentQuestion];
         currentQuestion.options.forEach((answerOption) => {
             if (answerOption.coordinates) {
-                L.marker([answerOption.coordinates.latitude, answerOption.coordinates.longitude]).addTo(map);
+                let marker = L.marker([answerOption.coordinates.latitude, answerOption.coordinates.longitude]);
+                this.currentLayers.push(marker);
+                marker.addTo(map);
             }
             const answerDescription = answerOption.answerDescription
             const $answer = MapQuizAppView.createRadioButton(answerDescription);
@@ -59,6 +71,9 @@ const MapQuizAppView = {
     clearPanel() {
         $('#questions').empty();
         $('#answers').empty();
+        this.currentLayers.forEach((marker) => {
+            marker.remove()
+        })
     }
 }
 
@@ -73,7 +88,7 @@ const mapQuizAppController = {
         mapQuizAppController.nextQuestion();
     },
 
-    nextQuestion(){
+    nextQuestion() {
         MapQuizApp.player.currentQuestion++;
         MapQuizAppView.clearPanel();
         MapQuizAppView.renderCurrentQuestion();
