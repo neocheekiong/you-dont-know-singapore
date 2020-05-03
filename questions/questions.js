@@ -19,14 +19,14 @@ class Question {
      * @param {Number=1} score 
      * Total score to be given for this question
      */
-    constructor(question, coordinates, answerOptions, questionMapAction, questionMapMarker, score = 1) {
+    constructor(question, coordinates, answerOptions, questionMapAction, questionMapMarker, feedback, score = 1) {
         this.question = question;
         this.coordinates = coordinates ? [coordinates.latitude, coordinates.longitude] : null;
         this.options = answerOptions;
         this.score = score;
         this.questionMapAction = questionMapAction;
         this.questionMapMarker = questionMapMarker
-        this.feedback = {
+        this.feedback = feedback || {
             correct: `That's correct! The answer is ${this.options.find((answer)=>answer.fraction===1)}`
         };
     }
@@ -136,6 +136,10 @@ const questions = [{
             return L.circle(this.coordinates, {
                 radius: 200
             })
+        },
+
+        feedback: {
+            correct: "Yes! Fort Serapong is the camp here. It was said that Serapong was named after the dripping sounds"
         }
     },
     {
