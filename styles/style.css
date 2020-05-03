@@ -14,7 +14,7 @@
 }
 
 #panel {
-
+    padding: 5%;
 }
 
 #map {
@@ -28,5 +28,7 @@
     overflow: auto;
 }
 
-
+#answers>button {
+    margin-top: 5%;
+}
 

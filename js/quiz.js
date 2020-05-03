@@ -1,5 +1,10 @@
 const DEFAULT_NUMBER = 0;
 
+const MaterializeClasses = {
+    closingModalButton: 'waves-effect waves-light btn cyan accent-3',
+    submitButton: 'waves-effect waves-light btn deep-orange',
+}
+
 const MapQuizApp = {
     questions: [],
     selectedAnswers: [],
@@ -18,6 +23,7 @@ const MapQuizApp = {
 
 const MapQuizAppView = {
     currentLayers: [],
+
     createRadioButton(value) {
         return $('<input>').attr({
             type: 'radio',
@@ -31,13 +37,13 @@ const MapQuizAppView = {
     },
 
     renderSubmitButton() {
-        return $('<button>').text('Submit').on('click', MapQuizAppController.submitAnswer)
+        return $('<button>').text('Submit').on('click', MapQuizAppController.submitAnswer).addClass(MaterializeClasses.submitButton)
     },
 
     renderCurrentQuestion() {
         const currentQuestion = MapQuizApp.questions[MapQuizApp.player.currentQuestion];
         if (currentQuestion) {
-            $('#questions').append($('<span>').text(currentQuestion.question))
+            $('#questions').append($('<h5>').text(currentQuestion.question))
             this.renderAnswers();
             $('#answers').append(this.renderSubmitButton());
             if (currentQuestion.coordinates) {
@@ -47,7 +53,6 @@ const MapQuizAppView = {
                 currentQuestion.questionMapAction();
             }
         }
-
     },
 
     renderAnswers() {
@@ -79,20 +84,26 @@ const MapQuizAppView = {
         })
     },
 
-    endQuiz() {
-        const $closingModalHeader = $('<h2>').text("Congratulations! You've finished the quiz");
+    renderClosingModal() {
+        const $closingModalHeader = $('<h2>').text(`Congratulations ${MapQuizApp.player.name}! You've finished the quiz`);
         const $closingModalContent = $('<p>').text(`You Scored ${MapQuizApp.player.score} out of ${MapQuizApp.questions.length}!`);
-        const $closingModalButton = $('<button>').text('Restart?').addClass('waves-effect waves-light btn').on('click', MapQuizAppController.restart);
+        const $closingModalButton = $('<button>').text('Restart?').addClass(MaterializeClasses.closingModalButton).on('click', MapQuizAppController.restartQuiz);
         const $closingModalContentContainer = $('<div>').addClass('modal-content').append($closingModalHeader, $closingModalContent, $closingModalButton);
         const $closingModal = $('<div>').addClass('modal').attr("id","closing-modal").append($closingModalContentContainer);
-        
         $('body').prepend($closingModal);
         $closingModal.toggle();
-
     }
 }
 
 const MapQuizAppController = {
+
+    startQuiz() {
+        MapQuizApp.getQuestions(questions);
+        MapQuizApp.player.name = $('#enter-name').val();
+        MapQuizAppView.renderCurrentQuestion();
+        $('#opening-modal').remove();
+    },
+
     getAnswer() {
         return $('input:radio[name=answer]:checked').val();
     },
@@ -107,17 +118,14 @@ const MapQuizAppController = {
         MapQuizApp.player.currentQuestion++;
         MapQuizAppView.clearPanel();
         MapQuizAppView.renderCurrentQuestion();
-        MapQuizApp.player.currentQuestion >= MapQuizApp.questions.length && MapQuizAppView.endQuiz()
+        MapQuizApp.player.currentQuestion >= MapQuizApp.questions.length && MapQuizAppController.endQuiz()
     },
 
-    start() {
-        MapQuizApp.getQuestions(questions);
-        MapQuizApp.player.name = $('#enter-name').val();
-        MapQuizAppView.renderCurrentQuestion();
-        $('#opening-modal').remove();
+    endQuiz() {
+        
     },
 
-    restart() {
+    restartQuiz() {
         MapQuizApp.player.score = DEFAULT_NUMBER;
         MapQuizApp.player.currentQuestion = DEFAULT_NUMBER;
         MapQuizApp.questions = [];
@@ -129,5 +137,5 @@ const MapQuizAppController = {
 
 $(function () {
     $('#opening-modal').toggle();
-    $('#start-button').on('click', MapQuizAppController.start);
+    $('#start-button').on('click', MapQuizAppController.startQuiz);
 });
