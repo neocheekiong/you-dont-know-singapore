@@ -136,7 +136,7 @@ const MapQuizAppController = {
     },
 
     endQuiz() {
-
+        MapQuizAppView.renderClosingModal();
     },
 
     restartQuiz() {

@@ -268,7 +268,7 @@ const questions = [{
             },
             {
                 answerDescription: "Granite",
-                fraction: 0,
+                fraction: 1,
             },
             {
                 answerDescription: "Clay",
@@ -284,14 +284,14 @@ const questions = [{
             const location1 = [1.410571, 103.953000];
             const location2 = [1.353340, 103.773757];
             const location3 = [1.355841, 103.754524];
-            var funcs = [func1, func2, func3],
-                i = 0;
+            // var funcs = [func1, func2, func3],
+            //     i = 0;
 
-            function callFuncs() {
-                funcs[i++]();
-                if (i < funcs.length) setTimeout(callFuncs, 1000);
-            }
-            setTimeout(callFuncs, 1000);
+            // function callFuncs() {
+            //     funcs[i++]();
+            //     if (i < funcs.length) setTimeout(callFuncs, 1000);
+            // }
+            // setTimeout(callFuncs, 1000);
             
             map.flyTo(location1, 17);
             map.on("moveend", function () {
@@ -310,6 +310,7 @@ const questions = [{
                     })
                 }, 1000)
             })
+
         }
     }
 ]
