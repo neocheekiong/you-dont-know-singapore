@@ -14,8 +14,6 @@ const MapQuizApp = {
             MapQuizApp.questions.push(new Question(question.question, question.coordinates, question.answerOptions, question.questionMapAction, question.questionMapMarker))
         });
     },
-
-
 }
 
 const MapQuizAppView = {
@@ -58,6 +56,7 @@ const MapQuizAppView = {
         currentQuestion.options.forEach((answerOption) => {
             if (answerOption.coordinates) {
                 let marker = answerOption.answerMapMarker();
+                marker.bindPopup(answerOption.answerDescription)
                 this.currentLayers.push(marker);
                 marker.addTo(map);
             }

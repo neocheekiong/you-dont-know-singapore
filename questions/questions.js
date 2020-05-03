@@ -141,7 +141,7 @@ const questions = [{
         }
     },
     {
-        "question": "Here you can see that there is a high density of swimming pools within this red circle around Sentosa Cove. However, this is not the area with the highest density of swimming pools in Singapore. Which of the following areas have a higher density of swimming pools than Sentosa Cove? Zoom out to see the other candidates.",
+        "question": "Here you can see that there is a high density of swimming pools within this red circle around Sentosa Cove. However, this is not the area with the highest density of swimming pools in Singapore. Which of the following areas have a higher density of swimming pools than Sentosa Cove? You may want to zoom in to look at the blue zones.",
         coordinates: {
             latitude: 1.250237,
             longitude: 103.845021
