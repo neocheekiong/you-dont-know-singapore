@@ -16,7 +16,12 @@ const MapQuizApp = {
 
     getQuestions(questions) {
         questions.forEach(question => {
-            MapQuizApp.questions.push(new Question(question.question, question.coordinates, question.answerOptions, question.questionMapAction, question.questionMapMarker))
+            MapQuizApp.questions.push(new Question(
+                question.question,
+                question.coordinates,
+                question.answerOptions,
+                question.questionMapAction,
+                question.questionMapMarker))
         });
     },
 }
@@ -87,9 +92,18 @@ const MapQuizAppView = {
     renderClosingModal() {
         const $closingModalHeader = $('<h2>').text(`Congratulations ${MapQuizApp.player.name}! You've finished the quiz`);
         const $closingModalContent = $('<p>').text(`You Scored ${MapQuizApp.player.score} out of ${MapQuizApp.questions.length}!`);
-        const $closingModalButton = $('<button>').text('Restart?').addClass(MaterializeClasses.closingModalButton).on('click', MapQuizAppController.restartQuiz);
-        const $closingModalContentContainer = $('<div>').addClass('modal-content').append($closingModalHeader, $closingModalContent, $closingModalButton);
-        const $closingModal = $('<div>').addClass('modal').attr("id","closing-modal").append($closingModalContentContainer);
+        const $closingModalButton = $('<button>').text('Restart?')
+            .addClass(MaterializeClasses.closingModalButton)
+            .on('click', MapQuizAppController.restartQuiz);
+        const $closingModalContentContainer = $('<div>').addClass('modal-content').append(
+            $closingModalHeader,
+            $closingModalContent,
+            $closingModalButton
+        );
+        const $closingModal = $('<div>')
+            .addClass('modal')
+            .attr("id", "closing-modal")
+            .append($closingModalContentContainer);
         $('body').prepend($closingModal);
         $closingModal.toggle();
     }
@@ -122,7 +136,7 @@ const MapQuizAppController = {
     },
 
     endQuiz() {
-        
+
     },
 
     restartQuiz() {

@@ -11,8 +11,6 @@ class Question {
      * What you are asking the quiz-taker
      * @param {Array<AnswerOption>} answerOptions 
      * Array of options you're giving the quiz-taker
-     * @param {Object} feedback 
-     * An object with what to say when quiz-taker is correct or wrong
      * @param {Function} questionMapAction
      * Perform this map action when the question is displayed. 
      * (Flying to question Coordinates etc)
@@ -157,6 +155,8 @@ const questions = [{
                     return L.circle([this.coordinates.latitude, this.coordinates.longitude], {
                         radius: 300,
                         color: "blue",
+                    }).on('click', function (event) {
+                        map.flyTo(event.latlng, MAX_ZOOM);
                     });
                 },
             },
@@ -171,6 +171,8 @@ const questions = [{
                     return L.circle([this.coordinates.latitude, this.coordinates.longitude], {
                         radius: 300,
                         color: "blue",
+                    }).on('click', function (event) {
+                        map.flyTo(event.latlng, MAX_ZOOM);
                     });
                 },
             },
@@ -185,6 +187,8 @@ const questions = [{
                     return L.circle([this.coordinates.latitude, this.coordinates.longitude], {
                         radius: 300,
                         color: "blue",
+                    }).on('click', function (event) {
+                        map.flyTo(event.latlng, MAX_ZOOM);
                     });
                 },
             },
@@ -199,6 +203,8 @@ const questions = [{
                     return L.circle([this.coordinates.latitude, this.coordinates.longitude], {
                         radius: 300,
                         color: "blue",
+                    }).on('click', function (event) {
+                        map.flyTo(event.latlng, MAX_ZOOM);
                     });
                 },
             },
@@ -208,20 +214,51 @@ const questions = [{
             return L.circle(this.coordinates, {
                 radius: 300,
                 color: "red"
-            }).on('click', function () {
-                map.flyTo(this.coordinates, MAX_ZOOM);
+            }).on('click', function (event) {
+                map.flyTo(event.latlng, MAX_ZOOM);
             })
         },
 
         questionMapAction() {
             map.flyTo(this.coordinates, MAX_ZOOM);
-            map.on("moveend", function flyAndReturn () {
-                map.flyTo([center.x, center.y], 13);
-                map.on("moveend", function () {
-                    map.off('moveend');
-                })
+            map.on("moveend", function flyAndReturn() {
+                setTimeout(function () {
+                    map.flyTo([center.x, center.y], 13);
+                    map.on("moveend", function () {
+                        map.off('moveend');
+                    })
+                }, 1000)
             })
         },
+    },
+    {
+        question: "At MacRitchie Reservoir Park, there is a grave and a memorial of a significant person. What did he do to deserve such a memorial?",
+        coordinates: {
+            latitude: 1.342139,
+            longitude: 103.830761
+        },
+        answerOptions: [{
+                answerDescription: "He was responsible for building up the healthcare systems in Singapore",
+                fraction: 0
+            }, {
+                answerDescription: "He was responsible for building trade relations between Singapore and China.",
+                fraction: 0
+            },
+            {
+                answerDescription: "He was a war hero.",
+                fraction: 1
+            },
+            {
+                answerDescription: "He was responsible for developing MacRitchie Reservoir",
+                fraction: 0
+            }
+        ],
+        questionMapAction() {
+            map.flyTo(this.coordinates, MAX_ZOOM);
+        },
+        questionMapMarker() {
+            return L.marker(this.coordinates);
+        }
     }
 ]
 
