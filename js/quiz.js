@@ -3,6 +3,7 @@ const DEFAULT_NUMBER = 0;
 const MaterializeClasses = {
     closingModalButton: 'waves-effect waves-light btn cyan accent-3',
     submitButton: 'waves-effect waves-light btn deep-orange',
+    feedbackModalButton: 'waves-effect waves-light btn red',
 }
 
 const MapQuizApp = {
@@ -21,7 +22,8 @@ const MapQuizApp = {
                 question.coordinates,
                 question.answerOptions,
                 question.questionMapAction,
-                question.questionMapMarker))
+                question.questionMapMarker,
+                question.feedback))
         });
     },
 }
@@ -81,12 +83,31 @@ const MapQuizAppView = {
         })
     },
 
+    renderFeedbackModal(text) {
+        console.log(text);
+        const $feedbackModalContent = $('<p>').text(text);
+        const $feedbackModalButton = $('<button>').text('Next Question')
+            .addClass(MaterializeClasses.feedbackModalButton)
+            .on('click', MapQuizAppController.nextQuestion);
+        const $feedbackModalContentContainer = $('<div>').addClass('modal-content').append(
+            $feedbackModalContent,
+            $feedbackModalButton
+        );
+        const $feedbackModal = $('<div>')
+            .addClass('modal')
+            .attr("id", "feedback-modal")
+            .append($feedbackModalContentContainer);
+        $('body').prepend($feedbackModal);
+        $feedbackModal.toggle();
+    },
+
     clearPanel() {
         $('#questions').empty();
         $('#answers').empty();
         this.currentLayers.forEach((marker) => {
             marker.remove()
-        })
+        });
+        $('#feedback-modal').remove();
     },
 
     renderClosingModal() {
@@ -106,7 +127,7 @@ const MapQuizAppView = {
             .append($closingModalContentContainer);
         $('body').prepend($closingModal);
         $closingModal.toggle();
-    }
+    },
 }
 
 const MapQuizAppController = {
@@ -125,14 +146,13 @@ const MapQuizAppController = {
     submitAnswer() {
         const submittedAnswer = MapQuizAppController.getAnswer();
         MapQuizApp.player.score = MapQuizApp.questions[MapQuizApp.player.currentQuestion].checkAnswer(submittedAnswer);
-        MapQuizAppController.nextQuestion();
     },
 
     nextQuestion() {
         MapQuizApp.player.currentQuestion++;
         MapQuizAppView.clearPanel();
         MapQuizAppView.renderCurrentQuestion();
-        MapQuizApp.player.currentQuestion >= MapQuizApp.questions.length && MapQuizAppController.endQuiz()
+        MapQuizApp.player.currentQuestion >= MapQuizApp.questions.length && MapQuizAppController.endQuiz();
     },
 
     endQuiz() {

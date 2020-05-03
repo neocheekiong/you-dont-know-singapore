@@ -27,7 +27,8 @@ class Question {
         this.questionMapAction = questionMapAction;
         this.questionMapMarker = questionMapMarker
         this.feedback = feedback || {
-            correct: `That's correct! The answer is ${this.options.find((answer)=>answer.fraction===1)}`
+            correct: `That's correct! The answer is ${this.options.find((answer)=>answer.fraction===1).answerDescription}.`,
+            wrong: "That's not right. You can try again later!"
         };
     }
 
@@ -36,7 +37,12 @@ class Question {
             if (answer === answerOption.answerDescription) return score + this.score * answerOption.fraction;
             return score;
         }, 0);
+        this.showFeedback(questionScore);
         return MapQuizApp.player.score + questionScore;
+    }
+
+    showFeedback(score) {
+        score > 0 ? MapQuizAppView.renderFeedbackModal(this.feedback.correct) : MapQuizAppView.renderFeedbackModal(this.feedback.wrong);
     }
 }
 
@@ -91,7 +97,7 @@ const questions = [{
                 "fraction": 0,
                 answerMapMarker() {
                     return L.marker([this.coordinates.latitude, this.coordinates.longitude]);
-                }
+                }                
             },
             {
                 "answerDescription": "1 Toa Payoh Lorong 7",
@@ -104,7 +110,11 @@ const questions = [{
                     return L.marker([this.coordinates.latitude, this.coordinates.longitude]);
                 }
             }
-        ]
+        ],
+        feedback: {
+            correct: "Yes! Many of the first residents here moved in after the Great Fire of Bukit Ho Swee.",
+            wrong: "These are some of the oldest flats in Singapore. It's easy to get confused."
+        }
     },
     {
         "question": "From the map, you can see that there is an abandoned military facility here. What is its name?",
@@ -139,7 +149,8 @@ const questions = [{
         },
 
         feedback: {
-            correct: "Yes! Fort Serapong is the camp here. It was said that Serapong was named after the dripping sounds"
+            correct: "Yes! Fort Serapong is the camp here. It was said that Serapong was named after the dripping sounds that go pong-pong-pong.",
+            wrong: "There is a golf course named after the hill this fort is on."
         }
     },
     {
@@ -234,6 +245,11 @@ const questions = [{
                 }, 1000)
             })
         },
+
+        feedback: {
+            correct: "It is a testament of the wealth in Singapore that almost every house in this area has a swimming pool.",
+            wrong: "That's not the right answer. Look carefully!"
+        }
     },
     {
         question: "At MacRitchie Reservoir Park, there is a grave and a memorial of a significant person. What did he do to deserve such a memorial?",
@@ -262,6 +278,10 @@ const questions = [{
         },
         questionMapMarker() {
             return L.marker(this.coordinates);
+        },
+        feedback: {
+            correct: "Lim Bo Seng was a leader of Force 136, part of the resistance movement during the Japanese Occupation. He was captured by the Japanese and tortured. He did not give in.",
+            wrong: "Here's a clue: he's a person of strong will."
         }
     },
     {
@@ -315,6 +335,10 @@ const questions = [{
                 }, 1000)
             })
 
+        },
+        feedback: {
+            correct: "The most commonly rock available in Singapore is granite.",
+            wrong: "Look up the geology of Singapore!"
         }
     }
 ]
