@@ -139,7 +139,7 @@ const questions = [{
         }
     },
     {
-        "question": "Here you can see that there is a high density of swimming pools within this red circle around Sentosa Cove. However, this is not the area with the highest density of swimming pools in Singapore. Which of the following areas have a higher density of swimming pools than Sentosa Cove? You may want to zoom in to look at the blue zones.",
+        "question": "Here you can see that there is a high density of swimming pools within this red circle around Sentosa Cove. However, this is not the area with the highest density of swimming pools in Singapore. Which of the following areas have a higher density of swimming pools than Sentosa Cove? Click on the blue zones to find out.",
         coordinates: {
             latitude: 1.250237,
             longitude: 103.845021
@@ -223,7 +223,7 @@ const questions = [{
             map.flyTo(this.coordinates, MAX_ZOOM);
             map.on("moveend", function flyAndReturn() {
                 setTimeout(function () {
-                    map.flyTo([center.x, center.y], 13);
+                    map.flyTo([1.296769, 103.821970], 13);
                     map.on("moveend", function () {
                         map.off('moveend');
                     })
@@ -259,11 +259,62 @@ const questions = [{
         questionMapMarker() {
             return L.marker(this.coordinates);
         }
+    },
+    {
+        question: "Singapore is home to a number of quarries. What was mined from these quarries?",
+        answerOptions: [{
+                answerDescription: "Marble",
+                fraction: 0,
+            },
+            {
+                answerDescription: "Granite",
+                fraction: 0,
+            },
+            {
+                answerDescription: "Clay",
+                fraction: 0,
+            },
+            {
+                answerDescription: "Limestone",
+                fraction: 0,
+            }
+        ],
+
+        questionMapAction() {
+            const location1 = [1.410571, 103.953000];
+            const location2 = [1.353340, 103.773757];
+            const location3 = [1.355841, 103.754524];
+            var funcs = [func1, func2, func3],
+                i = 0;
+
+            function callFuncs() {
+                funcs[i++]();
+                if (i < funcs.length) setTimeout(callFuncs, 1000);
+            }
+            setTimeout(callFuncs, 1000);
+            
+            map.flyTo(location1, 17);
+            map.on("moveend", function () {
+                setTimeout(function () {
+                    map.flyTo(location2, 17);
+                    map.on("moveend", function () {
+                        map.off('moveend');
+                        map.on("moveend", function () {
+                            setTimeout(function () {
+                                map.flyTo(location3, 17)
+                                map.on("moveend", function () {
+                                    map.off('moveend');
+                                })
+                            }, 1000)
+                        })
+                    })
+                }, 1000)
+            })
+        }
     }
 ]
 
 // condom truck
-// Lim Bo Seng
-// Type of Rock
+// Type of Rock (),(1.353340, 103.773757),(1.355841, 103.754524)
 // Istana Woodneuk
 // highest artificial waterfall

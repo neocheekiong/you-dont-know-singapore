@@ -55,8 +55,8 @@ const MapQuizAppView = {
                 let marker = currentQuestion.questionMapMarker();
                 this.currentLayers.push(marker);
                 marker.addTo(map);
-                currentQuestion.questionMapAction();
             }
+            currentQuestion.questionMapAction && currentQuestion.questionMapAction();
         }
     },
 
