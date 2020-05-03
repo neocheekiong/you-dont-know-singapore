@@ -18,4 +18,4 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     zoomOffset: -1
 }).addTo(map);
 
-omnivore.kml(`regions/MP14_REGION_NO_SEA_PL.kml`).addTo(map);
+// omnivore.kml(`regions/MP14_REGION_NO_SEA_PL.kml`).addTo(map);
