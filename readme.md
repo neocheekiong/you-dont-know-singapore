@@ -32,3 +32,9 @@ Questions are set in a way that is expandable.
 
 ## User Story
 When I enter the website, I want to be wowed by the environment. I want to start getting ready to explore. As I go through the sequences, I want to be drawn into the hidden stories of Singapore. I want to invite the users to google and find out more about these hidden stories.
+
+## Further improvements
+- Add music
+- Refactor nest timeout chain into a promise chain
+- add more questions
+- add images(?)
